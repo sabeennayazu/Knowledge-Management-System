@@ -1,62 +1,105 @@
 {
-  "sidebarItems": [
-    { "label": "Tutor", "path": "/admin/tutor" },
-    { "label": "School", "path": "/admin/school" },
-    { "label": "Partner", "path": "/admin/partner" },
-    { "label": "Attendance", "path": "/admin/attendance" },
-    { "label": "Activities", "path": "/admin/activities" },
-    { "label": "Teacher Profile", "path": "/admin/teacher-profile" },
-    { "label": "School Info", "path": "/admin/school-info" },
-    { "label": "Exam", "path": "/admin/exam" },
-    { "label": "Payment/Commission Partner", "path": "/admin/payment-commission-partner" },
-    { "label": "Schools Fees", "path": "/admin/schools-fees" },
-    { "label": "Hierachical", "path": "/admin/hierachical" },
-    { "label": "Pay Out Process", "path": "/admin/pay-out-process" },
-    { "label": "Components Delivery", "path": "/admin/components-delivery" },
-    { "label": "Complain Box", "path": "/admin/complain-box" },
-    { "label": "Teacher Learning Material", "path": "/admin/teacher-learning-material" },
-    { "label": "Progress Track", "path": "/admin/progress-track" }
-  ],
-  "lineData": {
-    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
-    "datasets": [
-      {
-        "label": "Activity",
-        "data": [65, 59, 80, 81, 56, 55, 40],
-        "fill": true,
-        "borderColor": "#6366f1",
-        "backgroundColor": "rgba(99,102,241,0.15)",
-        "pointBackgroundColor": "#6366f1",
-        "pointBorderColor": "#fff",
-        "pointRadius": 6,
-        "pointHoverRadius": 8,
-        "tension": 0.4
-      }
-    ]
+  "stats": {
+    "totalSchools": 42,
+    "totalTutors": 128,
+    "totalStudents": 3421,
+    "totalCourses": 56,
+    "pendingComplaints": 7,
+    "pendingPayouts": 5,
+    "profitThisMonth": 3200
   },
-  "pieData": {
-    "labels": ["Attendance", "Exams", "Payments", "Complaints"],
-    "datasets": [
-      {
-        "label": "Overview",
-        "data": [300, 50, 100, 60],
-        "backgroundColor": [
-          "rgba(59,130,246,0.8)",
-          "rgba(245,158,66,0.8)",
-          "rgba(16,185,129,0.8)",
-          "rgba(239,68,68,0.8)"
-        ],
-        "borderColor": ["#fff", "#fff", "#fff", "#fff"],
-        "borderWidth": 2,
-        "hoverOffset": 10
-      }
-    ]
+  "topSchools": [
+    {
+      "schoolId": "SCH01",
+      "name": "Greenwood High School",
+      "totalStudents": 520,
+      "monthlyRevenue": 1200
+    },
+    {
+      "schoolId": "SCH02",
+      "name": "Riverdale Academy",
+      "totalStudents": 430,
+      "monthlyRevenue": 950
+    },
+    {
+      "schoolId": "SCH03",
+      "name": "Himalayan Public School",
+      "totalStudents": 390,
+      "monthlyRevenue": 870
+    }
+  ],
+  "tutorActivityStatus": {
+    "activeTutors": 115,
+    "inactiveTutors": 13,
+    "newTutorsThisMonth": 4
+  },
+  "activityTrends": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+    "data": [65, 59, 80, 81, 56, 55, 40]
+  },
+  "distribution": {
+    "attendance": 300,
+    "exams": 50,
+    "payments": 100,
+    "complaints": 60
   },
   "leaderboard": [
-    { "name": "John Doe", "score": 98 },
-    { "name": "Jane Smith", "score": 95 },
-    { "name": "Emily Johnson", "score": 92 },
-    { "name": "Michael Brown", "score": 89 },
-    { "name": "Sarah Lee", "score": 87 }
-  ]
+    { "name": "John Doe", "score": 98, "tutorId": "T101" },
+    { "name": "Jane Smith", "score": 95, "tutorId": "T102" },
+    { "name": "Emily Johnson", "score": 92, "tutorId": "T103" },
+    { "name": "Michael Brown", "score": 89, "tutorId": "T104" },
+    { "name": "Sarah Lee", "score": 87, "tutorId": "T105" }
+  ],
+  "recentEnrollments": [
+    { "studentId": "S5001", "name": "Rahul Sharma", "course": "CRS01", "school": "SCH01" },
+    { "studentId": "S5002", "name": "Anisha Karki", "course": "CRS02", "school": "SCH02" }
+  ],
+  "attendanceSummary": {
+    "averageAttendance": 91,
+    "highestAbsenteeCourse": "CRS03",
+    "alerts": [
+      { "courseId": "CRS03", "title": "Mathematics Advanced", "issue": "Low Attendance" }
+    ]
+  },
+  "recentActivities": [
+    { "activityId": "ACT120", "type": "Assignment", "title": "Algebra Quiz", "status": "Completed" },
+    { "activityId": "ACT121", "type": "Workshop", "title": "Science Lab Demo", "status": "Upcoming" }
+  ],
+  "recentComplaints": [
+    {
+      "complaintId": "C001",
+      "from": "Student - S201",
+      "category": "Platform Issue",
+      "message": "Unable to submit assignment",
+      "status": "Pending"
+    },
+    {
+      "complaintId": "C002",
+      "from": "Tutor - T103",
+      "category": "Payment Delay",
+      "message": "Commission not received for June",
+      "status": "In Progress"
+    }
+  ],
+  "financials": {
+    "totalRevenue": 12500,
+    "totalPayouts": 8400,
+    "netProfit": 4100,
+    "pendingPayoutRequests": [
+      { "id": "P001", "tutorId": "T102", "amount": 450, "status": "Pending" },
+      { "id": "P002", "tutorId": "T104", "amount": 380, "status": "Pending" }
+    ],
+    "revenueBySchool": [
+      { "schoolId": "SCH01", "name": "Greenwood High School", "revenue": 1200 },
+      { "schoolId": "SCH02", "name": "Riverdale Academy", "revenue": 950 },
+      { "schoolId": "SCH03", "name": "Himalayan Public School", "revenue": 870 }
+    ]
+  },
+  "feedbackSummary": {
+    "averageRating": 4.6,
+    "recentFeedbacks": [
+      { "from": "Student S2002", "message": "Loved the platform!", "rating": 5 },
+      { "from": "Parent of S2005", "message": "Progress tracking is helpful.", "rating": 4 }
+    ]
+  }
 }

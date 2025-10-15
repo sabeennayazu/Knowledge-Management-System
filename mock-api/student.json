@@ -73,12 +73,5 @@
       "date": "2025-08-25",
       "read": true
     }
-  ],
-
-  "links": [
-    { "name": "Tasks", "href": "/student/tasks" },
-    { "name": "Exams", "href": "/student/exams" },
-    { "name": "Projects", "href": "/student/projects" },
-    { "name": "Attendance", "href": "/student/attendance" }
   ]
 }

@@ -1,0 +1,104 @@
+{
+  "tutor": {
+    "tutorId": "T101",
+    "name": "John Doe",
+    "subject": "Mathematics",
+    "assignedSchool": "Greenwood High School",
+    "experience": "5 years",
+    "rating": 4.9
+  },
+  "stats": {
+    "totalCourses": 3,
+    "totalStudents": 85,
+    "averageAttendance": 92,
+    "averagePerformanceScore": 88
+  },
+  "courses": [
+    {
+      "courseId": "CRS01",
+      "title": "Basic Algebra",
+      "gradeLevel": "Class 8",
+      "enrolledStudents": 30,
+      "completionRate": 75
+    },
+    {
+      "courseId": "CRS02",
+      "title": "Geometry Essentials",
+      "gradeLevel": "Class 9",
+      "enrolledStudents": 28,
+      "completionRate": 60
+    },
+    {
+      "courseId": "CRS03",
+      "title": "Mathematics Advanced",
+      "gradeLevel": "Class 10",
+      "enrolledStudents": 27,
+      "completionRate": 45
+    }
+  ],
+  "recentActivities": [
+    {
+      "activityId": "ACT120",
+      "type": "Assignment",
+      "title": "Algebra Quiz 1",
+      "assignedTo": "Class 8",
+      "status": "Completed",
+      "submitted": 28,
+      "pending": 2
+    },
+    {
+      "activityId": "ACT121",
+      "type": "Workshop",
+      "title": "Interactive Geometry Session",
+      "assignedTo": "Class 9",
+      "status": "Upcoming",
+      "scheduledDate": "2025-10-18"
+    }
+  ],
+  "studentPerformanceAlerts": [
+    {
+      "studentId": "S2001",
+      "name": "Rahul Sharma",
+      "courseId": "CRS01",
+      "issue": "Low Performance in Assignments"
+    },
+    {
+      "studentId": "S2005",
+      "name": "Anisha Karki",
+      "courseId": "CRS03",
+      "issue": "Irregular Attendance"
+    }
+  ],
+  "materialRequests": [
+    {
+      "requestId": "MR001",
+      "item": "Whiteboard Markers Pack",
+      "status": "Approved"
+    },
+    {
+      "requestId": "MR002",
+      "item": "Projector Cable",
+      "status": "Pending"
+    }
+  ],
+  "financials": {
+    "totalEarnings": 3200,
+    "pendingPayouts": 450,
+    "lastPayment": {
+      "amount": 850,
+      "date": "2025-09-28"
+    }
+  },
+  "feedbacks": [
+    {
+      "from": "Student S2002",
+      "message": "Loved the interactive quiz session!",
+      "rating": 5
+    },
+    {
+      "from": "Parent of S2005",
+      "message": "Please give more revision worksheets.",
+      "rating": 4
+    }
+  ]
+}
