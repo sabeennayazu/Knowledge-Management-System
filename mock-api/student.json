@@ -1,0 +1,84 @@
+{
+  "studentInfo": {
+    "id": "STU_2025_001",
+    "name": "Aarav Sharma",
+    "grade": "B.Tech 3rd Year",
+    "department": "Electronics and Communication Engineering",
+    "profileImage": "/images/students/aarav.png"
+  },
+
+  "stats": {
+    "attendance": {
+      "workingDays": 100,
+      "presentDays": 92,
+      "absentDays": 8,
+      "percentage": 92
+    },
+    "pendingAssignments": 5,
+    "upcomingExam": {
+      "title": "Embedded Systems Midterm",
+      "date": "2025-09-15",
+      "time": "10:00 AM",
+      "venue": "Hall A"
+    },
+    "projectDue": {
+      "title": "IoT Smart Sensor Project",
+      "submissionDate": "2025-09-20",
+      "status": "In Progress"
+    }
+  },
+
+  "attendanceOverview": {
+    "chart": {
+      "present": 92,
+      "absent": 8
+    },
+    "summary": [
+      { "label": "Working Days", "value": 100 },
+      { "label": "Present Days", "value": 92 },
+      { "label": "Absent Days", "value": 8 },
+      { "label": "Attendance %", "value": 92 }
+    ]
+  },
+
+  "nextClass": {
+    "day": "Wednesday",
+    "date": "2025-08-28",
+    "subject": "IoT and Robotics",
+    "time": "10:00 AM - 11:00 AM",
+    "instructor": "Prof. Neha Verma",
+    "location": "Lab 204",
+    "status": "Scheduled"
+  },
+
+  "notifications": [
+    {
+      "id": 1,
+      "type": "Exam",
+      "message": "Embedded Systems Midterm exam scheduled for Sep 15, 2025.",
+      "date": "2025-08-10",
+      "read": false
+    },
+    {
+      "id": 2,
+      "type": "Project",
+      "message": "IoT Project submission portal will open on Sep 10, 2025.",
+      "date": "2025-08-18",
+      "read": false
+    },
+    {
+      "id": 3,
+      "type": "Attendance",
+      "message": "Your attendance dropped below 95%. Please attend next classes regularly.",
+      "date": "2025-08-25",
+      "read": true
+    }
+  ],
+
+  "links": [
+    { "name": "Tasks", "href": "/student/tasks" },
+    { "name": "Exams", "href": "/student/exams" },
+    { "name": "Projects", "href": "/student/projects" },
+    { "name": "Attendance", "href": "/student/attendance" }
+  ]
+}

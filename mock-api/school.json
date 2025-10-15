@@ -1,0 +1,105 @@
+{
+  "schoolInfo": {
+    "schoolName": "Brighton STEAM Academy",
+    "schoolCode": "BSA001",
+    "primaryAdmin": "Dr. Sarah Johnson",
+    "adminStaff": [
+      {
+        "name": "Mark Wilson",
+        "role": "Academic Coordinator",
+        "permissions": "Full Access"
+      },
+      {
+        "name": "Lisa Chen",
+        "role": "STEAM Coordinator",
+        "permissions": "Academic Only"
+      }
+    ]
+  },
+
+  "academicStructure": {
+    "classesOffered": ["Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6"],
+    "sections": ["Science", "Technology", "Engineering", "Arts", "Mathematics"],
+    "subjects": ["Physics", "Robotics", "Coding", "Mathematics", "Digital Arts", "3D Design"],
+    "totalTutors": 12,
+    "totalStudents": 245
+  },
+
+  "performanceData": {
+    "overallProgress": 78,
+    "classProgress": [
+      { "class": "Grade 1", "progress": 85 },
+      { "class": "Grade 2", "progress": 82 },
+      { "class": "Grade 3", "progress": 75 },
+      { "class": "Grade 4", "progress": 70 },
+      { "class": "Grade 5", "progress": 68 },
+      { "class": "Grade 6", "progress": 72 }
+    ],
+    "tutorPerformance": 84
+  },
+
+  "complaints": {
+    "totalComplaints": 3,
+    "pendingComplaints": 1,
+    "resolvedComplaints": 2,
+    "complaintList": [
+      {
+        "id": 1,
+        "title": "Network issue in Lab",
+        "status": "Resolved",
+        "reportedBy": "Mr. John",
+        "date": "2025-02-12"
+      },
+      {
+        "id": 2,
+        "title": "Projector not working",
+        "status": "Pending",
+        "reportedBy": "Ms. Asha",
+        "date": "2025-03-04"
+      },
+      {
+        "id": 3,
+        "title": "Broken desk in Class 5",
+        "status": "Resolved",
+        "reportedBy": "Student Council",
+        "date": "2025-01-18"
+      }
+    ]
+  },
+
+  "subscription": {
+    "subscriptionPlan": "Premium STEAM Package",
+    "activeUntil": "2025-12-31",
+    "lastPayment": "2024-09-01",
+    "status": "Active"
+  },
+
+  "charts": {
+    "lineChart": {
+      "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+      "datasets": [
+        {
+          "label": "Activity",
+          "data": [65, 59, 80, 81, 56, 55, 40]
+        }
+      ]
+    },
+    "pieChart": {
+      "labels": ["Attendance", "Exams", "Payments", "Complaints"],
+      "datasets": [
+        {
+          "label": "Overview",
+          "data": [300, 50, 100, 60]
+        }
+      ]
+    }
+  },
+
+  "leaderboard": [
+    { "rank": 1, "name": "John Doe", "score": 98 },
+    { "rank": 2, "name": "Jane Smith", "score": 95 },
+    { "rank": 3, "name": "Emily Johnson", "score": 92 },
+    { "rank": 4, "name": "Michael Brown", "score": 89 },
+    { "rank": 5, "name": "Sarah Lee", "score": 87 }
+  ]
+}

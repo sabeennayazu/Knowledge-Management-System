@@ -1,0 +1,62 @@
+{
+  "sidebarItems": [
+    { "label": "Tutor", "path": "/admin/tutor" },
+    { "label": "School", "path": "/admin/school" },
+    { "label": "Partner", "path": "/admin/partner" },
+    { "label": "Attendance", "path": "/admin/attendance" },
+    { "label": "Activities", "path": "/admin/activities" },
+    { "label": "Teacher Profile", "path": "/admin/teacher-profile" },
+    { "label": "School Info", "path": "/admin/school-info" },
+    { "label": "Exam", "path": "/admin/exam" },
+    { "label": "Payment/Commission Partner", "path": "/admin/payment-commission-partner" },
+    { "label": "Schools Fees", "path": "/admin/schools-fees" },
+    { "label": "Hierachical", "path": "/admin/hierachical" },
+    { "label": "Pay Out Process", "path": "/admin/pay-out-process" },
+    { "label": "Components Delivery", "path": "/admin/components-delivery" },
+    { "label": "Complain Box", "path": "/admin/complain-box" },
+    { "label": "Teacher Learning Material", "path": "/admin/teacher-learning-material" },
+    { "label": "Progress Track", "path": "/admin/progress-track" }
+  ],
+  "lineData": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+    "datasets": [
+      {
+        "label": "Activity",
+        "data": [65, 59, 80, 81, 56, 55, 40],
+        "fill": true,
+        "borderColor": "#6366f1",
+        "backgroundColor": "rgba(99,102,241,0.15)",
+        "pointBackgroundColor": "#6366f1",
+        "pointBorderColor": "#fff",
+        "pointRadius": 6,
+        "pointHoverRadius": 8,
+        "tension": 0.4
+      }
+    ]
+  },
+  "pieData": {
+    "labels": ["Attendance", "Exams", "Payments", "Complaints"],
+    "datasets": [
+      {
+        "label": "Overview",
+        "data": [300, 50, 100, 60],
+        "backgroundColor": [
+          "rgba(59,130,246,0.8)",
+          "rgba(245,158,66,0.8)",
+          "rgba(16,185,129,0.8)",
+          "rgba(239,68,68,0.8)"
+        ],
+        "borderColor": ["#fff", "#fff", "#fff", "#fff"],
+        "borderWidth": 2,
+        "hoverOffset": 10
+      }
+    ]
+  },
+  "leaderboard": [
+    { "name": "John Doe", "score": 98 },
+    { "name": "Jane Smith", "score": 95 },
+    { "name": "Emily Johnson", "score": 92 },
+    { "name": "Michael Brown", "score": 89 },
+    { "name": "Sarah Lee", "score": 87 }
+  ]
+}
